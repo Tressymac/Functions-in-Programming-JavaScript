@@ -56,10 +56,6 @@
  totalsArea.innerHTML = `Your total amount is going to be $${final.toFixed(2)}`;
   }
 
-    // let totalAmount = 0; 
-    // totalAmount = addFurniture(totalAmount, updateTotals); 
-    // console.log(totalAmount)
-
 
                 let totalCost = 0;
                 totalCost = addPaintAndSupplies(totalCost, updateTotals);
