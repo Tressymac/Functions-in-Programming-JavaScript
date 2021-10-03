@@ -32,7 +32,7 @@
                                         }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-                                                    function floorCoverings(totalCost, callback) {
+                                                    const floorCoverings = function (totalCost, callback) {
                                                         let price = prompt("Enter the cost for the floor coverings.");
                                                         price = parseFloat(price);
                                                         if (price < 500)
@@ -55,7 +55,6 @@
  let totalsArea = document.querySelector(".totalCost");
  totalsArea.innerHTML = `Your total amount is going to be $${final.toFixed(2)}`;
   }
-
 
                 let totalCost = 0;
                 totalCost = addPaintAndSupplies(totalCost, updateTotals);
